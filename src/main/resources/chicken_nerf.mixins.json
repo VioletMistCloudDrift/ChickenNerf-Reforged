@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "neko.violetmist.chicken_nerf.common.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "chicken_nerf.refmap.json",
+  "mixins": [
+    "MixinAnimal",
+    "MixinChicken",
+    "MixinThrownEgg"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
